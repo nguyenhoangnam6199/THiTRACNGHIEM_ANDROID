@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRANG QUẢN TRỊ ADMIN"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#2CA7E0"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo1"
+            />
+
+        <Button
+            android:id="@+id/btnThongKe"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnThongKe2"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnThongKe3"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTaoBoDe"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Tạo Bộ Đề"
+
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/btnThongKe4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Thống Kê"
+
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:id="@+id/btnThoatAdmin"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Đăng Xuất"
+
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        />
+
+</LinearLayout>

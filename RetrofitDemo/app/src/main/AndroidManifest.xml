@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.retrofitdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".model.Notification"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="THI TRẮC NGHIỆM TIẾNG ANH"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".FavoriteQuestionActivity" />
+        <activity android:name=".NavigationActivity" />
+        <activity android:name=".HelloActivity" />
+        <activity android:name=".ThemBoDeActivity" />
+        <activity android:name=".ThongTinActivity" />
+        <activity android:name=".ThongKeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Statistic3Activity" />
+        <activity android:name=".Statistic2Actitvity" />
+        <activity android:name=".StatisticActivity" />
+        <activity android:name=".KetQuaActivity" />
+        <activity android:name=".ThiActivity" />
+        <activity android:name=".ThiNewActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

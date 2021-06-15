@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menutab11" android:title="Học" android:icon="@drawable/ic_collections_bookmark_black_24dp"/>
+    <item android:id="@+id/menutab22" android:title="Thi" android:icon="@drawable/ic_collections_bookmark_black_24dp"/>
+    <item android:id="@+id/menutab33" android:title="Yêu thích" android:icon="@drawable/ic_favorite_black_24dp"/>
+    <item android:id="@+id/menutab44" android:title="Lịch Sử Thi" android:icon="@drawable/ic_description_black_24dp"/>
+</menu>

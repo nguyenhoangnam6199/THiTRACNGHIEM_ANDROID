@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:src="@drawable/favquestion2" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTenBoDe"
+            android:textStyle="bold"
+            android:text="Tên Bộ Đề"
+            android:textColor="#2CA7E0"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/txt_tt_thoigian"
+            android:text="Loại câu hỏi"
+            android:textColor="#2CA7E0"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_tt_soluong"
+            android:text="Độ khó"
+            android:textColor="#2CA7E0"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/btn_del_fq"
+        android:layout_width="15dp"
+        android:layout_weight="3"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Xóa"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+</LinearLayout>
